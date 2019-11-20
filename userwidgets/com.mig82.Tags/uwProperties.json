@@ -1,0 +1,118 @@
+{
+    "classname": "Tags",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "foo, bar, qux, zed",
+                    "group": "General",
+                    "kuid": "e8665dc976bc48708b76f58cfa7f07e4",
+                    "originalPropertyKey": "tags",
+                    "propertyIndex": 1,
+                    "propertyKey": "tags",
+                    "pw": {
+                        "displayName": "Tag Values",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a0f32eba74cd47498c7f1fd0ce08d84e",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ad43c04a4e224dd2aa9cf07eb4a7c75c",
+                    "originalPropertyKey": "left",
+                    "propertyIndex": 2,
+                    "propertyKey": "gutter",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Gutter between tags",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "bar",
+                        "toolTip": "Distance of left edge of widget from left edge of parent container",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d08a18f87bad4ae6aaf3d098cf4d6a81"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}
